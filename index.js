@@ -1,9 +1,9 @@
-// const hamburger = document.getElementsByClassName(".hamburger")[0];
-// const navMenu = document.getElementsByClassName(".nav-menu")[0];
+const hamburger = document.getElementsByClassName("hamburger")[0];
+const navMenu = document.getElementsByClassName("nav-menu")[0];
 
-// hamburger.addEventListener("click", () => {
-//   navMenu.classList.toggle("active");
-// });
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
 
 document.querySelector("#email-form").addEventListener("submit", addPost);
 
@@ -40,7 +40,7 @@ function addPost(preventForm) {
       message += `
 		   <div id="message2">
 		  <h6>Message Submitted</h6>
-	  </div> 
+	  </div>
 		  `;
       document.querySelector("#message3").innerHTML = message;
     })
@@ -49,13 +49,13 @@ function addPost(preventForm) {
       message += `
 			 <div id="message2">
 			<h6>oh oh, there has been an error with your message!</h6>
-		</div> 
+		</div>
 			`;
       document.querySelector("#message3").innerHTML = message;
     });
 
-  document.querySelector("#name").value = "";
-  document.querySelector("#email").value = "";
-  document.querySelector("#phone").value = "";
-  document.querySelector("#message").value = "";
+  document.querySelector("name").value = "";
+  document.querySelector("email").value = "";
+  document.querySelector("phone").value = "";
+  document.querySelector("message").value = "";
 }
