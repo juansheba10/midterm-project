@@ -34,7 +34,7 @@
   list-style: none;
   flex-direction: column;
   background-color: #c8c8c8;
-  width: 414px;
+  width: 100%;
   padding: 20px;
   transition: 0.3s;
 }
@@ -48,7 +48,6 @@
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
-  width: 300px;
   transition: 0, 3s;
 }
 

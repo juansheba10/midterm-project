@@ -30,7 +30,7 @@
   list-style: none;
   flex-direction: column;
   background-color: #c8c8c8;
-  width: 414px;
+  width: 100%;
   padding: 20px;
 }
 
@@ -39,7 +39,6 @@
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
-  width: 300px;
 }
 
 .contact-us-btn {
@@ -177,6 +176,8 @@
 .clients-section img:nth-last-child(1) {
   display: none;
 }
+
+/* PROJECTS SECTION */
 
 .card-deck {
   background-color: #f2f4fc;

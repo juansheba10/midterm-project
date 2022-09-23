@@ -19,7 +19,7 @@ async function getData() {
                     <p class="card-text bg-white">
                         ${post.body.slice(0, 12)}
                     </p>
-                    <a href="#" class="btn text-primary">Go somewhere</a>
+                    <a href="" class="btn text-primary">Learn More</a>
                 </div>
             </div>
               `;

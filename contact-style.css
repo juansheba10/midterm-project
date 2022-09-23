@@ -11,7 +11,7 @@
 
 .contact-container {
   margin-top: 50px;
-  max-width: 1100px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -24,8 +24,8 @@
 }
 .w-form {
   margin: 0 0 15px;
-  width: 350px;
-  margin-left: 30px;
+  width: 90%;
+  margin-left: 15px;
 }
 
 .contact-form-wrapper {
@@ -151,7 +151,7 @@
   list-style: none;
   flex-direction: column;
   background-color: #c8c8c8;
-  width: 414px;
+  width: 100%;
   padding: 20px;
 }
 
@@ -160,7 +160,6 @@
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
-  width: 300px;
 }
 
 .contact-us-btn {
@@ -266,6 +265,7 @@
     background-color: blue;
     color: white;
     display: inline;
+    margin-right: 30px;
   }
   .nav-bar i {
     display: none;
@@ -294,6 +294,10 @@
     width: 100%;
     flex-direction: column;
     padding: 20px;
+  }
+
+  .nav-bar img {
+    margin-left: 25px;
   }
 
   .hamburger {
