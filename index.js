@@ -63,11 +63,11 @@ function addPost(preventForm) {
 			<h6>oh oh, there has been an error with your message!</h6>
 		</div>
 			`;
-      document.querySelector("#message3").innerHTML = message;
+      document.querySelector("#w-form-done").innerHTML = message;
     });
 
-  document.querySelector("name").value = "";
-  document.querySelector("email").value = "";
-  document.querySelector("phone").value = "";
-  document.querySelector("message").value = "";
+  document.querySelector("#name").value = "";
+  document.querySelector("#name-2").value = "";
+  document.querySelector("#name-3").value = "";
+  document.querySelector("#field").value = "";
 }
